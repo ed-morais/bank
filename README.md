@@ -40,3 +40,15 @@
 + Saldo
 + Transferência
 + Extrato 
+
+#### CurrentAccount
+
+#### SpecialAccount
+
+#### RevenueAccount
+
+##### SavingAccount
+
+##### InvestimentAccount
+
+Account (Current Account, Special Account, Revenue Account (Saving Account, Investment Account))
