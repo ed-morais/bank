@@ -29,3 +29,14 @@
 -[] Abrir / Fechar contas
 -[] Saque / Depósitos
 -[] Registo das transações que afetam o saldo da conta  
+
+## Modelagem
+### Account
+- Agência
+- Número
+- Titular
++ Depósito
++ Saque 
++ Saldo
++ Transferência
++ Extrato 
