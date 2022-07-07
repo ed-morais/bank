@@ -1,3 +1,18 @@
-class Transaction {}
+enum TransactionType {
+  deposit,
+  withdraw,
+}
 
-typedef TransactionList = List<Transaction>; // Criando tipo Transactions
+class Transaction {
+  final DateTime date;
+  final TransactionType type;
+  final double value;
+  final String description;
+
+  Transaction({
+    required this.date,
+    required this.type,
+    required this.value,
+    required this.description,
+  });
+}
