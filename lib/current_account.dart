@@ -1,4 +1,4 @@
-import 'package:bank/account.dart';
+import './account.dart';
 
 class CurrentAccount extends Account {
   CurrentAccount({
@@ -8,35 +8,17 @@ class CurrentAccount extends Account {
   }) : super.open(agency: agency, number: number, name: name);
 
   @override
-  String toString() => 'CurrentAccount($name)';
+  void close() {}
 
   @override
-  double balance() {
-    return 0.0;
-  }
+  void deposit(double value) {}
 
   @override
-  void close() {
-    // TODO: implement close
-  }
+  void statement() {}
 
   @override
-  void deposit(double value) {
-    // TODO: implement deposit
-  }
+  void transfer(Account account, double value) {}
 
   @override
-  void statement() {
-    // TODO: implement statement
-  }
-
-  @override
-  void transfer(Account account, double value) {
-    // TODO: implement transfer
-  }
-
-  @override
-  void withdraw(double value) {
-    // TODO: implement withdraw
-  }
+  void withdraw(double value) {}
 }
